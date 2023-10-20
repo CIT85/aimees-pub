@@ -8,11 +8,11 @@ body {
 }
 
 a {
-    color: aliceblue;
+    color: dimgray;
 }
 
 a:visited {
-    color: lightgray;
+    color:cornsilk
 }
 
 a:hover {
