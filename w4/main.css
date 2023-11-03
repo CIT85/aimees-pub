@@ -1,0 +1,20 @@
+html {
+    font-size: 22px
+}
+
+body {
+    background-color: pink;
+    color: #333;
+}
+
+a {
+    color: dimgray;
+}
+
+a:visited {
+    color:cornsilk
+}
+
+a:hover {
+    color: #eee;
+}
