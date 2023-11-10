@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
+<header>
 <head>
       <title>Week 4 CSS Group Work</title>
     <meta charset="UTF-8">
@@ -10,6 +10,9 @@
     <link rel="icon" href="img/mymelo1.png" type="image/x-icon">
     <link rel="stylesheet" href="main.css" type="text/css">
 </head>
+</header>
+
+<main>
 <body>
     <h1>Why Am I Taking This Course?</h1>
     
@@ -18,6 +21,7 @@
     <uo>
         <li><a href="goals.html">My Goals</a></li>
         <li><a href="learn-more.html">Learn More About HTML</a></li>
+        <li><a href="#contact">Contact Me</a></li>
     </uo>
 
     <hr>
@@ -32,6 +36,48 @@
     <p>Websites are literally the core of technology today, if you're using the internet you're most likely using either a website or an app -- both run off of HTML and CSS! Not only are more and more careers popping up for website and app developers due to the tech industry being one of the biggest in the world, but having impressive websites and apps on your portfolio is also a great way to show off your artistry.</p>
 
     <hr>
+    <br>
+    <table>
+        <caption>example table</caption>
+        <thead>
+        <tr>
+            <th>column</th>
+            <th>column 2</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <time datetime="08:00">example</time>
+            </td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nesciunt, officiis, minus nihil aliquid dolor tenetur facere fugit labore ea, laboriosam voluptatem expedita. Labore, vitae odit illo aspernatur fugiat eum.</td>
+        </tr>
+        <tr>
+            <td>
+                <time datetime="08:00">example</time>
+            </td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae veritatis ex deserunt minus autem quidem eaque minima nostrum delectus, quas itaque dolorum, laudantium quibusdam illo ipsam nesciunt enim, voluptates hic?</td>
+        </tr>
+        <tr>
+            <td>
+                <time datetime="08:00">example</time>
+            </td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt molestias repellat laboriosam nesciunt distinctio dolore eaque inventore, eos laudantium. Id modi laborum asperiores rerum aspernatur maxime pariatur facilis natus! Itaque.</td>
+        </tr>
+        <tr>
+            <td rowspan="2">big row</td>
+            <td>big row</td>
+        </tr>
+        <tr>
+            <td>out of filler words man</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="2">summary row ₊‧°𐐪♡𐑂°‧₊</td>
+        </tr>
+    </tfoot>
+    </table>
 
     <h2>Websites I Visit Often!</h2>
     <p>These are some websites I visit either for entertainment, or just because I think its pretty.</p>
@@ -41,10 +87,65 @@
         <li><a href="https://www.webtoons.com/en/" target="_blank">Webtoon</a></li>
         <li><a href="https://pusheen.com/" target="_blank">Pusheen the Cat</a></li>
     </uo>
+    <hr>
+    <article id="contact">
+    <h2>Contact Me</h2>
+    <p>I'd really like to hear from you!</p>
+
+    <form action="https://httpbin.org/get">
+        <fieldset>
+            <legend>Personal Info</legend>
+        <p>
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName" placeholder="Jane" autocomplete="on" required>
+    </p>
+    <p>
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName" placeholder="Doe" autocomplete="on" required>
+    </p>
+   <p>
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password" placeholder=":3" required>
+    </p> 
+   <p>
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" placeholder="5555555555" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+    </p> 
+   <p>
+        <label for="decade">Favorite Decade:</label>
+        <input type="number" name="decade" id="decade" min="1950" max="2020" value="1980">
+    </p> 
+   <p>
+        <label for="coffee">Favorite Coffee:</label>
+    <select name="coffee" id="coffee" multiple size="5">
+        <optgroup label="Coffees">
+        <option value="regular coffee">Regular Coffee</option>
+        <option value="iced coffee">Iced Coffee</option>
+    </optgroup>
+    <optgroup label="Espresso Drinks">
+        <option value="latte" selected>Latte</option>
+        <option value="cappuccino">Cappuccino</option>
+        <option value="cortado">Cortado</option>
+        <option value="americano">Americano</option>
+    </optgroup>
+        <option value="other">Other</option>
+    </select>
+    </p> 
+</fieldset>
+<br>
+<fieldset>
+    <legend>Send Me a Note</legend>
+    <label for="message">Your Message</label>
+    <br>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="hi hehe"></textarea>
+</fieldset>
+    </form>
+    </article>
+</main>
 
     <hr>
-
+<footer></footer>
     <a href="#">Back to Top</a> ♡ <a href="https://github.com/CIT85" target="_blank">CIT85 GitHub Page</a> | © Aimee Soumphon
 </body>
-
+</footer>
 </html>
