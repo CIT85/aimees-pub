@@ -3,20 +3,20 @@ html {
 }
 
 body {
-    background-color: pink;
-    color: #333;
+    background-color: #FCB1A6;
+    color: #5D2A42;
 }
 
 a {
-    color: dimgray;
+    color: #FFF9EC;
 }
 
 a:visited {
-    color:cornsilk
+    color: #FFDCCC
 }
 
 a:hover {
-    color: #eee;
+    color: #FB6376;
 }
 
 table, tr, th, td, caption {
@@ -24,4 +24,54 @@ table, tr, th, td, caption {
     font-family: 'Courier New', Courier, monospace;
     border-collapse: collapse;
     padding: 0.5rem;
+}
+
+.violet {
+    background-color: #5D2A42;
+    width: 300px;
+    height: 160px;
+    border: 2px;
+    border-radius: 15%;
+    outline: 2px solid #ffffff;
+    border-spacing: 1em; 
+}
+
+.brightpink {
+    background-color: #FB6376;
+    width: 300px;
+    height: 160px;
+    border: 2px;
+    border-radius: 15%;
+    outline: 2px solid #ffffff;
+    border-spacing: 1em; 
+}
+
+.melon {
+    background-color: #FCB1A6;
+    width: 300px;
+    height: 160px;
+    border: 2px;
+    border-radius: 15%;
+    outline: 2px solid #ffffff;
+    border-spacing: 1em; 
+}
+
+.paledogwood {
+    background-color: #FFDCCC;
+    width: 300px;
+    height: 160px;
+    border: 2px;
+    border-radius: 15%;
+    outline: 2px solid #ffffff;
+    border-spacing: 1em; 
+}
+
+.floralwhite {
+    background-color: #FFF9EC;
+    width: 300px;
+    height: 160px;
+    border: 2px;
+    border-radius: 15%;
+    outline: 2px solid #ffffff;
+    border-spacing: 1em; 
 }
